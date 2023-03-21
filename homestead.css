@@ -1,0 +1,155 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #FFFFFF;
+    color: #023020;
+}
+
+#wrapper {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #4CBB17;
+    max-width: 2040px;
+    min-width: 960px;
+    box-shadow: 3px 3px 3px #333333;
+    border: 2px solid #023020;
+    background-image: linear-gradient(to bottom, #ffffff, #4CBB17);
+}
+
+header {
+    height: 80px;
+    padding-top: 10px;
+    padding-left: 3em;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #4CBB17;
+    margin: 30px 30px;
+}
+
+#garden {
+    background-image: url(homesteadpic.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: 160px;
+    margin-right: 60px;
+    height: 300px;
+
+}
+
+nav {
+    float: left;
+    width: 150px;
+    font-weight: bold;
+    text-align: left;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    display: block;
+    padding: 1em 1em;
+    transition: 2s linear;  
+}
+   
+nav ul {
+    list-style-type: none;
+    
+}
+
+nav a:link {
+    color: #4CBB17;
+}
+
+nav a:visited {
+    color: #023020;
+}
+
+nav a:hover {
+    color: #A52A2A;
+}
+
+main {
+    margin-left: 160px;
+    margin-right: 60px;
+    padding: 10px;
+    background-color: #FFFFFF;
+
+}
+
+h1 {
+    margin: 0%;
+    font-family: Georgia, 'Times New Roman', serif;
+    padding: 10px;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', serif;
+    color: #4CBB17;
+}
+
+h3 {
+    font-family: Georgia, 'Times New Roman', serif;
+
+}
+
+ul {
+    list-style-type: circle;
+
+}
+
+table {
+    border: 2px solid #4CBB17;
+    width: 600px;
+    border-collapse: collapse;
+}
+
+td,
+th {
+    text-align: center;
+    font-size: small;
+
+}
+
+tr:nth-of-type(even) {
+    background-color: #98FB98;
+}
+
+#special {
+    clear: both;
+}
+
+label {
+    float: left;
+    display: block;
+    width: 130px;
+    text-align: left;
+    padding-right: 7px;
+
+}
+
+input,
+textarea {
+    display: block;
+    margin-bottom: 30px;
+}
+
+input[type=submit] {
+    margin-left: 180px;
+}
+
+footer {
+    font-size: 80%;
+    font-style: italic;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', serif;
+
+}
+
+#contact {
+    font-size: 90%;
+}
+
+* {
+    box-sizing: border-box;
+}
